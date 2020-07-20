@@ -80,7 +80,7 @@ export default {
     return {
 	  input: ''
    }
-}
+   }
 }
 </script>
 
