@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="index1">
         <el-row>
-            <el-col :span="2"><div class="hight1"></div></el-col>
-            <el-col :span="20">
+            <el-col :span="3"><div class="hight1"></div></el-col>
+            <el-col :span="18">
                 <el-row :gutter="20">
                     <el-col :span="5">
                         <div class="hight2 bc_1">
@@ -25,22 +25,22 @@
                             <el-tabs type="border-card" tab-position="bottom" :stretch="true">
                                 <el-tab-pane class="tab_img" label="律师">
                                     <el-image
-                                        style="width: 100%; height: 300px; "
+                                        style="width: 100%; height: 320px; "
                                         :src="url"></el-image>
                                 </el-tab-pane>
                                 <el-tab-pane label="律师">
                                     <el-image
-                                        style="width: 100%; height: 300px "
+                                        style="width: 100%; height: 320px "
                                         :src="url"></el-image>
                                 </el-tab-pane>
                                 <el-tab-pane label="快讯">
                                     <el-image
-                                            style="width: 100%; height: 300px "
+                                            style="width: 100%; height: 320px "
                                             :src="url"></el-image>
                                 </el-tab-pane>
                                 <el-tab-pane label="公告">
                                     <el-image
-                                            style="width: 100%; height: 300px "
+                                            style="width: 100%; height: 320px "
                                             :src="url"></el-image>
                                 </el-tab-pane>
                             </el-tabs>
@@ -86,7 +86,7 @@
                 </el-row>
 
             </el-col>
-            <el-col :span="2"></el-col>
+            <el-col :span="3"></el-col>
         </el-row>
     </div>
 </template>
@@ -110,7 +110,10 @@
 </script>
 
 <style scoped>
-    body{
+    .index1{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
         background-color: #e9e8e8;
     }
     .hight1{
@@ -160,7 +163,7 @@
         border: 0px;
     }
     .bcimg_3{
-        width: 100%;
+        width: 90%;
         height: 150px ;
         background: url("../assets/img/index1_bc3.jpg") no-repeat;
         margin-top: 10px;
