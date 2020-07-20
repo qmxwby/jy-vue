@@ -74,13 +74,13 @@
                     </el-col>
                     <el-col :span="5">
                         <div class="hight1 bc_3">
-                            <img style="width: 90%; height: 150px ;padding-top: 10px" src='../assets/img/index1_bc4.jpg'>
+                            <img style="width: 90%; height: 150px ;padding-top: 15px;padding-left: 12px" src='../assets/img/index1_bc4.jpg'>
                             <div class="bcimg_3">
                                 <h3 style="margin: 0px">三峡大学</h3>
                                 <h3 style="margin: 0px">法律援助中心</h3>
                                 <a href="#">点击进入</a>
                             </div>
-                            <img style="width: 90%; height: 100px " src='../assets/img/index1_bc4.jpg'>
+                            <img style="width: 90%; height: 100px ;padding-left: 12px" src='../assets/img/index1_bc4.jpg'>
                         </div>
                     </el-col>
                 </el-row>
@@ -141,7 +141,7 @@
     .bc2{
         background: url('../assets/img/index1_bc1.jpg') no-repeat;
         background-size:100%;
-        margin-top: 30px;
+        margin-top: 20px;
         min-height: 110px;
     }
     .bc_3{
@@ -176,6 +176,7 @@
     .enter_header{
         min-height: 10px;
         padding-top: 30px;
+        padding-left: 10px;
         font-weight:800;
         font-size: 20px;
         border-bottom: solid 4px;
