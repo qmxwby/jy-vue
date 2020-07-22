@@ -2,6 +2,8 @@
   <div id="app">
     <HelloWorld></HelloWorld>
 	<index1></index1>
+      <index4></index4>
+      <index42></index42>
 	<HotLawyers></HotLawyers>
   </div>
 </template>
@@ -10,12 +12,16 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HotLawyers from './components/HotLawyers.vue'
 import index1 from './components/index1.vue'
+import index4 from './components/index4.vue'
+import index42 from './components/index42.vue'
 export default {
   name: 'app',
   components: {
     HelloWorld,
 	HotLawyers,
-	index1
+	index1,
+      index4,
+      index42
   }
 }
 </script>
