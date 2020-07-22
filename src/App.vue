@@ -3,6 +3,7 @@
     <HelloWorld></HelloWorld>
 	<index1></index1>
 	<HotLawyers></HotLawyers>
+	<LawyerRequest></LawyerRequest>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HotLawyers from './components/HotLawyers.vue'
 import index1 from './components/index1.vue'
+import LawyerRequest from './components/LawyerRequest.vue'
 export default {
   name: 'app',
   components: {
     HelloWorld,
 	HotLawyers,
-	index1
+	index1,
+	LawyerRequest
   }
 }
 </script>
