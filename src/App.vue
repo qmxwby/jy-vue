@@ -4,6 +4,7 @@
 	<index1></index1>
 	<HotLawyers></HotLawyers>
 	<LawyerRequest></LawyerRequest>
+	<Footer></Footer>
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import HelloWorld from './components/HelloWorld.vue'
 import HotLawyers from './components/HotLawyers.vue'
 import index1 from './components/index1.vue'
 import LawyerRequest from './components/LawyerRequest.vue'
+import Footer from './components/Footer.vue'
 export default {
   name: 'app',
   components: {
     HelloWorld,
 	HotLawyers,
 	index1,
-	LawyerRequest
+	LawyerRequest,
+	Footer
   }
 }
 </script>

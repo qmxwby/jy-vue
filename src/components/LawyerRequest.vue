@@ -27,7 +27,7 @@
 										<el-col :span="9">
 											<h3 style="width: 100%;">标题</h3>
 											<div class="content">
-												<p>孩子嗑凑老不好...</p>
+												<p>孩子咳凑老不好，多半是肺热</p>
 											</div>
 										</el-col>
 										<el-col :span="2"></el-col>
@@ -115,7 +115,7 @@
 	};
 </script>
 
-<style>
+<style scoped>
 	.input{
 		height: 60px;
 		margin: 0 auto;
@@ -153,7 +153,7 @@
 	.el-tabs__active-bar {
 		width: 75px !important;
 	}
-	.tab-right .el-card__body{
+	.tab-right >>> .el-card__body{
 		padding: 0px !important;
 	}
 	.phone-f{
