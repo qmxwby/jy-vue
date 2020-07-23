@@ -11,9 +11,9 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/index1',
-    name: 'index1',
-    component: () => import(/* webpackChunkName: "about" */ '../components/index1.vue')
+    path: '/index4',
+    name: 'index4',
+    component: () => import(/* webpackChunkName: "about" */ '../components/index4.vue')
   }
 ]
 

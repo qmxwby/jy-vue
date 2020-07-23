@@ -8,7 +8,7 @@
                         <div class="hight2 bc_1">
                             <h4 class="h4c">团队介绍</h4>
                             <el-image
-                                    style="width: 200px; height: 200px ;padding-top: 10px"
+                                    style="width: 90%; height: 240px ;padding-top: 10px"
                                     :src="url"></el-image>
                             <h4 class="h4c2">咨询案件分类</h4>
                             <el-row :gutter="20" v-for="c_class in class_date">
